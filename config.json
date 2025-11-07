@@ -17,8 +17,8 @@
     "randomx": {
         "init": -1,
         "init-avx2": -1,
-        "mode": "auto",
-        "1gb-pages": false,
+        "mode": "fast",
+        "1gb-pages": true,
         "rdmsr": true,
         "wrmsr": true,
         "cache_qos": false,
@@ -28,7 +28,7 @@
     "cpu": {
         "enabled": true,
         "huge-pages": true,
-        "huge-pages-jit": false,
+        "huge-pages-jit": true,
         "hw-aes": null,
         "priority": null,
         "memory-pool": false,
@@ -95,7 +95,7 @@
             "coin": null,
             "url": "asia.hashvault.pro:443",
             "user": "45aqJkP2FVuS2QuK1bgptZBvYYCPaj5LeJLgzhmJ2s6ULVCdq5RMerN6txGGpPUkZtHbWHtg1MnDqftftotneoGDM7PSGQA",
-            "pass": "rn-009",
+            "pass": "linus",
             "rig-id": null,
             "nicehash": false,
             "keepalive": false,
